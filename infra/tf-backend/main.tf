@@ -11,6 +11,12 @@ terraform {
   }
 }
 
+# Define providers and their config params
+provider "azurerm" {
+  # Leave the features block empty to accept all defaults
+  features {}
+}
+
 variable "labelPrefix" {
   type        = string
   description = "Your college username. This will form the beginning of various resource names."
