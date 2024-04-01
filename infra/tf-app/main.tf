@@ -13,3 +13,8 @@ resource "azurerm_resource_group" "a12-rg" {
   name     = "${var.labelPrefix}-a12-rg"
   location = var.region
 }
+
+
+output "resource_group_name" {
+  value = azurerm_resource_group.a12-rg.name
+}
