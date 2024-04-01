@@ -14,6 +14,7 @@ terraform {
     storage_account_name = "amit0004githubactions"
     container_name       = "tfstate"
     key                  = "prod.app.tfstate"
+    use_oidc             = true
   }
 }
 
