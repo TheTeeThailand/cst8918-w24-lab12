@@ -1,4 +1,5 @@
 variable "label_prefix" {
+  default     = "rung1018"
   type        = string
   description = "Your college username. This will form the beginning of various resource names."
 }
