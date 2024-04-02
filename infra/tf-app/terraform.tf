@@ -11,7 +11,7 @@ terraform {
   }
 
   backend "azurerm" {
-    storage_account_name = "amit0004githubactions"
+    storage_account_name = "rung1018githubactions"
     container_name       = "tfstate"
     key                  = "prod.app.tfstate"
     use_oidc             = true
