@@ -4,7 +4,7 @@ variable "label_prefix" {
 }
 
 variable "region" {
-  default = "westus3"
-  type    = string
+  default     = "westus3"
+  type        = string
   description = "The default region that should be used for the resources"
 }
